@@ -1,0 +1,78 @@
+body {
+  background: rgb(34, 33, 33);
+  color: #f4f4f6;
+  font-family: "open sans", sans-serif !important;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+  color: bisque;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #de0606;
+}
+h1{
+font-size: 60px;
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  height: 90px;
+  padding: 25px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+@media (max-width: 991px) {
+  #header {
+    height: 100px;
+    transition: all 0.5s;
+  }
+}
+
+@media (max-width: 1199px) {
+  #header .container {
+    max-width: 100%;
+  }
+}
+
+#header.header-scrolled, #header.header-fixed {
+  background:rgba(0, 0, 0, 0.897);
+  height: 100px;
+  transition: all 0.5s;
+}
+
+#header #logo img {
+  padding: 0px !important;
+  margin: 0px !important;
+  margin-top: 0px !important;
+  width: 50px;
+}
+mark {
+  background-color: red;
+  color: black;
+}
+wrapper{
+  background-color: rgb(120, 107, 107);
+  color: black;
+}
+div h2 mark{
+  background-color: rgb(248, 248, 249);
+  color: red;
+}
+h1 mark{
+  font-size: 30px;
+}
